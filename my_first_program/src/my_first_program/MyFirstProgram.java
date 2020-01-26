@@ -1,3 +1,5 @@
+// I'm in day 06
+
 package my_first_program;
 
 import java.io.File;
@@ -13,7 +15,7 @@ public class MyFirstProgram {
 		
 		Scanner in = new Scanner(new File("students.txt"));
 		
-		List<String> students = new ArrayList<String>();
+		ArrayList<String> students = new ArrayList<String>();
 		
 		while(in.hasNextLine())
 		{
